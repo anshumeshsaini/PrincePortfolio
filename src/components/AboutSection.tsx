@@ -344,18 +344,18 @@ const AboutSection: React.FC = () => {
             </motion.h3>
 
             <motion.p
-              variants={itemVariants}
-              className="text-lg dark:text-gray-300 text-gray-600 mb-6 leading-relaxed"
-            >
-              I'm <span className="font-semibold dark:text-white text-gray-800">Prince Keshri</span> a passionate full-stack developer specializing in building immersive web experiences with cutting-edge technologies. With expertise in JavaScript, Python, and modern frameworks, I create solutions that are as performant as they are beautiful.
-            </motion.p>
+  variants={itemVariants}
+  className="text-lg dark:text-gray-300 text-gray-600 mb-6 leading-relaxed"
+>
+  I'm <span className="font-semibold dark:text-white text-gray-800">Prince Keshri</span>, a passionate frontend developer specializing in crafting immersive user interfaces with modern web technologies. With expertise in React, Next.js, and responsive design, I build interfaces that are both visually stunning and highly performant.
+</motion.p>
 
-            <motion.p
-              variants={itemVariants}
-              className="text-lg dark:text-gray-300 text-gray-600 mb-10 leading-relaxed"
-            >
-              My work spans from dynamic UIs to robust backend systems, with a recent focus on AI integration to deliver smart, intuitive applications. Whether it's a portfolio, e-commerce platform, or complex management system, I approach each project with creativity and technical excellence.
-            </motion.p>
+<motion.p
+  variants={itemVariants}
+  className="text-lg dark:text-gray-300 text-gray-600 mb-10 leading-relaxed"
+>
+  My work focuses on creating seamless user experiences through clean code, intuitive designs, and smooth animations. From single-page applications to complex dashboards, I combine aesthetic sensibility with technical precision to deliver pixel-perfect, accessible, and engaging web interfaces.
+</motion.p>
 
             {/* Stats grid with hover effects */}
             <motion.div
@@ -402,26 +402,9 @@ const AboutSection: React.FC = () => {
               variants={itemVariants}
               className="flex flex-wrap gap-4"
             >
+             
               <motion.a
-                href="/resume.pdf"
-                download="Anshumesh_Saini_Resume.pdf"
-                whileHover={{ 
-                  scale: 1.05,
-                  boxShadow: "0 5px 20px rgba(59, 130, 246, 0.4)"
-                }}
-                whileTap={{ scale: 0.95 }}
-                className="relative px-8 py-4 rounded-xl font-semibold text-white overflow-hidden group"
-              >
-                <span className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl transition-all duration-300 group-hover:from-blue-600 group-hover:to-purple-500" />
-                <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-500" />
-                <span className="relative z-10 flex items-center">
-                  <Download size={20} className="mr-3" />
-                  Download Resume
-                </span>
-              </motion.a>
-
-              <motion.a
-                href="https://github.com/username"
+                href="https://github.com/princekeshri1103"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ 
@@ -431,8 +414,9 @@ const AboutSection: React.FC = () => {
                 whileTap={{ scale: 0.95 }}
                 className="relative px-8 py-4 rounded-xl font-semibold dark:text-white text-gray-900 overflow-hidden group"
               >
-                <span className="absolute inset-0 backdrop-blur-md dark:bg-white/10 bg-white/50 rounded-xl border dark:border-white/10 border-gray-300 transition-all duration-300 group-hover:dark:bg-white/20 group-hover:bg-gray-200/50" />
-                <span className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-500" />
+               <span className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl transition-all duration-300 group-hover:from-blue-600 group-hover:to-purple-500" />
+                <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-500" />
+                <span className="relative z-10 flex items-center"></span>
                 <span className="relative z-10 flex items-center">
                   <Github size={20} className="mr-3" />
                   GitHub Profile

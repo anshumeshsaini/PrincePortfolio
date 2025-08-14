@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
     },
     {
       icon: <Linkedin size={20} />,
-      href: "https://www.linkedin.com/in/anshumesh-saini-628760234/",
+      href: "https://www.linkedin.com/in/prince-kumar-keshri-39a723245/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: isLightTheme ? "from-blue-500/40 to-cyan-500/40" : "from-blue-500/20 to-cyan-500/20",
       hoverColor: isLightTheme ? "hover:shadow-blue-500/30" : "hover:shadow-blue-400/30",
       iconColor: isLightTheme ? "text-gray-700" : "text-gray-300"
