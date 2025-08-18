@@ -19,7 +19,7 @@ const mockGithubStats: GithubStats = {
     { name: 'TypeScript', percentage: 70},
     { name: 'Python', percentage: 40 },
     { name: 'HTML/CSS', percentage: 99 },
-    { name: 'C', percentage: 80 },
+    { name: 'JAVA', percentage: 60 },
   ],
 };
 
