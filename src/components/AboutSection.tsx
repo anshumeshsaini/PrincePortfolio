@@ -336,10 +336,10 @@ const AboutSection: React.FC = () => {
               className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-8 tracking-tight"
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
-                Full-Stack Developer
+                FrontEnd  Developer
               </span>
               <span className="block text-2xl md:text-3xl mt-2 dark:text-gray-300 text-gray-700 font-medium">
-                & AI Enthusiast
+
               </span>
             </motion.h3>
 

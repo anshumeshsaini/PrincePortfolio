@@ -172,7 +172,7 @@ const SkillsSection: React.FC = () => {
             <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full"></div>
           </div>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mt-6 leading-relaxed">
-            A comprehensive set of technologies I've mastered over <span className="font-semibold text-blue-600 dark:text-blue-400">3+ years</span> in the industry.
+            A comprehensive set of technologies I've mastered over <span className="font-semibold text-blue-600 dark:text-blue-400">1+ years</span> in the industry.
           </p>
         </motion.div>
 

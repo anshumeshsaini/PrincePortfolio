@@ -20,7 +20,7 @@ const skillData: Skill[] = [
 
 
   {id:'12',name:'Java', icon:'Java', category:'backend', proficiency: 80},
-  {id:'13', name:'Three.js', icon:'threejs', category:'frontend', proficiency: 80},
+
   
 
   

@@ -15,11 +15,11 @@ const mockGithubStats: GithubStats = {
   following: 450,
   publicRepos: 6,
   topLanguages: [
-    { name: 'JavaScript', percentage: 95 },
-    { name: 'TypeScript', percentage: 91 },
-    { name: 'Python', percentage: 70 },
+    { name: 'JavaScript', percentage:67 },
+    { name: 'TypeScript', percentage: 70},
+    { name: 'Python', percentage: 40 },
     { name: 'HTML/CSS', percentage: 99 },
-    { name: 'Other', percentage: 50 },
+    { name: 'C', percentage: 80 },
   ],
 };
 
