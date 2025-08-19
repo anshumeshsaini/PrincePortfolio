@@ -47,7 +47,7 @@ const AboutSection: React.FC = () => {
     },
     { 
       icon: <Briefcase size={28} />, 
-      value: '20+', 
+      value: '5+', 
       label: 'Projects',
       color: 'from-blue-500 to-cyan-400'
     },
