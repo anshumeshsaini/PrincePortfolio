@@ -149,7 +149,7 @@ const HeroSection: React.FC = () => {
       
       setIsSpeaking(true);
       const speech = new SpeechSynthesisUtterance(
-        "Welcome to my digital universe. I'm Anshumesh Saini - a full-stack developer and AI enthusiast. " +
+        "Welcome to my digital universe. I'm Prince - a frontEnd developer and AI enthusiast. " +
         "I build immersive web experiences that push boundaries. " +
         "Scroll down to explore my projects or contact me to discuss how we can create something amazing together."
       );

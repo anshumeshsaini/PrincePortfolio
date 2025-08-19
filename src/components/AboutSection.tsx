@@ -294,7 +294,7 @@ const AboutSection: React.FC = () => {
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl z-20">
                   <img
                     src={anshumesh}
-                    alt="Anshumesh Saini"
+                    alt="Prince Keshri"
                     className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
